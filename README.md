@@ -39,7 +39,7 @@ The following is what the output is when placing ```<!-- ex_versions -->``` belo
 
 <!-- ex_versions -->
 ## Dependency Versions:
-### Elixir:
+#### Elixir:
 ```bash
 $ elixir -v
 

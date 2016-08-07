@@ -23,7 +23,7 @@ defmodule ExVersions do
                                 {name, cmd_line} = dep
                                 [cmd | args] = String.split cmd_line
                                 {version, 0} = System.cmd(cmd, args)
-                                "### #{name}:\n" <>
+                                "#### #{name}:\n" <>
                                 "```bash\n$ #{cmd_line}\n\n#{version}```"
                               end
 
