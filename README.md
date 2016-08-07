@@ -6,7 +6,7 @@ Updates your README.md with version credentials of all your (specified) external
 
     ```elixir
     def deps do
-      [{:ex_versions, "~> 0.1.0"}]
+      [{:ex_versions, "~> 0.0.1"}]
     end
     ```
 
