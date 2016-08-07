@@ -32,7 +32,7 @@ ExVersions.watch [
                  ]
 ```
 
-Then simply add ```<!-- ex_versions -->``` in your README.md where you'd like the dependency version to be placed. Make sure no characters follow ```<!-- ex_versions -->```.
+Then simply add ```<!-- ex_versions -->``` in your README.md where you'd like the dependency versions to be placed. Make sure no characters follow ```<!-- ex_versions -->```.
 
 ## Example
 The following is what the output is when placing ```<!-- ex_versions -->``` below and running the watch function example from above.
