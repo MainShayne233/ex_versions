@@ -35,7 +35,7 @@ ExVersions.watch [
 Then simply add ```<!-- ex_versions -->``` in your README.md where you'd like the dependency version to be placed. Make sure no characters follow ```<!-- ex_versions -->```.
 
 ## Example
-The following is what the output is when placing ```<!-- ex_versions -->``` below and running the watch function with tuples for Elixir, Node.js, and Homebrew.
+The following is what the output is when placing ```<!-- ex_versions -->``` below and running the watch function example from above.
 
 <!-- ex_versions -->
 ## Dependency Versions:
@@ -47,17 +47,28 @@ Erlang/OTP 19 [erts-8.0.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe]
 
 Elixir 1.3.1
 ```
-### Homebrew:
-```bash
-$ brew -v
-
-Homebrew 0.9.9 (git revision f6da; last commit 2016-07-14)
-Homebrew/homebrew-core (git revision 77ade; last commit 2016-07-15)
-```
-### Node.js:
+#### Node:
 ```bash
 $ node -v
 
 v6.1.0
+```
+#### npm:
+```bash
+$ npm -v
+
+3.10.3
+```
+#### Phoenix:
+```bash
+$ mix phoenix.new -v
+
+Phoenix v1.2.0
+```
+#### Postgresql:
+```bash
+$ pg_config --version
+
+PostgreSQL 9.4.4
 ```
 <!-- ex_versions -->
