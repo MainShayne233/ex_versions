@@ -1,7 +1,7 @@
 defmodule ExVersions do
   def watch dependencies do
     {:ok, file} = File.read "README.md"
-    case String.split file, "<!-- ex_versions -->" do
+    case Regex.split ~r/<!-- ex_versions -->(?!.)/, file do
       [first_chunk, second_chunk] ->
         [top, bottom] = [first_chunk, second_chunk]
         write_to_readme top, bottom, dependencies
