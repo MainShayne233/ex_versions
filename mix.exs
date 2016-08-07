@@ -16,7 +16,7 @@ defmodule ExVersions.Mixfile do
     [
       maintainers: ["Shayne Tremblay"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/"}
+      links: %{"GitHub" => "https://github.com/MainShayne233/ex_versions"}
     ]
   end
 
