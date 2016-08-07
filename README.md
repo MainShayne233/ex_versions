@@ -1,5 +1,5 @@
 # ExVersions
-Updates your README.md with version credentials of all your external dependencies.
+Updates your README.md with version credentials of all your (specified) external dependencies.
 
 ## Installation
   1. Add `ex_versions` to your list of dependencies in `mix.exs`:
